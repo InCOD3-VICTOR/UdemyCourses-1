@@ -1,0 +1,37 @@
+Comandos git:
+
+	git init 										=> inicializar repositório
+	ls -la											=> visualizar pasta do git
+	git status										=> visualizar status do git
+	git add [nome arquivo]							=> colocar arquivo no stage
+	git commit -m "[descrição do commit]"			=> commitar os arquivos staged's
+	git commit -am "[descrição do commit]"			=> commitar os arquivos sem precisar dar add antes
+	
+	git log --decorate								=> visualizar log do git
+	git log --author="[nome do autor]"				=> visualizar log do git do autor
+	git shortlog									=> visualizar resumo do log
+	git log --graph									=> visualização gráfica dos branches
+	git show [chave do commit]						=> informações mais profundas sobre o commit pesquisado
+	git diff										=> mostra as modificações antes do commit
+	git diff --name-only							=> mostra somente nome dos arquivos que foram modificados
+
+	git remote add origin [path github]				=> linkar repositório local ao repositório remoto
+	git remote -v 									=> mais informações sobre o repositório remoto
+	git push -u origin master						=> enviar o repositório local para o repositório remoto
+	git push [repositório alias] [nome do branch]	=> enviar o repositório local para o repositório remoto
+
+	git clone [path github] [nome pasta]			=> clonar um repositório remoto
+	
+
+Comandos venv:
+	python3 -m venv [nome venv] 					=> criar virtual enviromment
+	source [nome]/bin/activate 						=> ativar virtual enviroment
+	pip install django								=> instalar django
+
+Comandos django:
+	django-admin startproject [nome servidor] .		=> criar projeto do servidor
+	python manage.py startapp [nome app] 			=> criar aplicação
+	python manage.py migrate 						=> criar/atualizar BD (sqlite3 por default)
+	python manage.py runserver						=> iniciar servidor
+	python manage.py createsuperuser				=> criar super usuário
+	python manage.py makemigrations					=> atualizar o BD com os novos models; executar migrate apos makemigrations

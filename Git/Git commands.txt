@@ -21,17 +21,3 @@ Comandos git:
 	git push [repositório alias] [nome do branch]	=> enviar o repositório local para o repositório remoto
 
 	git clone [path github] [nome pasta]			=> clonar um repositório remoto
-	
-
-Comandos venv:
-	python3 -m venv [nome venv] 					=> criar virtual enviromment
-	source [nome]/bin/activate 						=> ativar virtual enviroment
-	pip install django								=> instalar django
-
-Comandos django:
-	django-admin startproject [nome servidor] .		=> criar projeto do servidor
-	python manage.py startapp [nome app] 			=> criar aplicação
-	python manage.py migrate 						=> criar/atualizar BD (sqlite3 por default)
-	python manage.py runserver						=> iniciar servidor
-	python manage.py createsuperuser				=> criar super usuário
-	python manage.py makemigrations					=> atualizar o BD com os novos models; executar migrate apos makemigrations

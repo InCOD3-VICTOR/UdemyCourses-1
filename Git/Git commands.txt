@@ -3,7 +3,8 @@ Comandos git:
 	git init 										=> Inicializar repositório
 	ls -la											=> Visualizar pasta do git
 	git status										=> Visualizar status do git
-	git add [nome arquivo]							=> Colocar arquivo no stage
+	git add [nome arquivo]							=> Colocar arquivo/diretório no stage
+	git add .										=> Colocar tudo no stage
 	git commit -m "[descrição do commit]"			=> Commitar os arquivos staged's
 	git commit -am "[descrição do commit]"			=> Commitar os arquivos sem precisar dar add antes
 	
@@ -27,4 +28,5 @@ Comandos git:
 	git checkout [nome branch] 						=> Mudar de branch
 	git branch -D [nome branch]						=> Deletar branch
 	
-	
+	git merge [nome branch]							=> Unir branch ao branch atual através do merge
+	git rebase [nome branch]						=> Unir branch ao branch atual através do rebase

@@ -1,23 +1,30 @@
 Comandos git:
 
-	git init 										=> inicializar repositório
-	ls -la											=> visualizar pasta do git
-	git status										=> visualizar status do git
-	git add [nome arquivo]							=> colocar arquivo no stage
-	git commit -m "[descrição do commit]"			=> commitar os arquivos staged's
-	git commit -am "[descrição do commit]"			=> commitar os arquivos sem precisar dar add antes
+	git init 										=> Inicializar repositório
+	ls -la											=> Visualizar pasta do git
+	git status										=> Visualizar status do git
+	git add [nome arquivo]							=> Colocar arquivo no stage
+	git commit -m "[descrição do commit]"			=> Commitar os arquivos staged's
+	git commit -am "[descrição do commit]"			=> Commitar os arquivos sem precisar dar add antes
 	
-	git log --decorate								=> visualizar log do git
-	git log --author="[nome do autor]"				=> visualizar log do git do autor
-	git shortlog									=> visualizar resumo do log
-	git log --graph									=> visualização gráfica dos branches
-	git show [chave do commit]						=> informações mais profundas sobre o commit pesquisado
-	git diff										=> mostra as modificações antes do commit
-	git diff --name-only							=> mostra somente nome dos arquivos que foram modificados
+	git log --decorate								=> Visualizar log do git
+	git log --author="[nome do autor]"				=> Visualizar log do git do autor
+	git shortlog									=> Visualizar resumo do log
+	git log --graph									=> Visualização gráfica dos branches
+	git show [chave do commit]						=> Informações mais profundas sobre o commit pesquisado
+	git diff										=> Mostra as modificações antes do commit
+	git diff --name-only							=> Mostra somente nome dos arquivos que foram modificados
 
-	git remote add origin [path github]				=> linkar repositório local ao repositório remoto
-	git remote -v 									=> mais informações sobre o repositório remoto
-	git push -u origin master						=> enviar o repositório local para o repositório remoto
-	git push [repositório alias] [nome do branch]	=> enviar o repositório local para o repositório remoto
+	git remote add origin [path github]				=> Linkar repositório local ao repositório remoto
+	git remote -v 									=> Mais informações sobre o repositório remoto
+	git push -u origin master						=> Enviar o repositório local para o repositório remoto
+	git push [repositório alias] [nome do branch]	=> Enviar o repositório local para o repositório remoto
 
-	git clone [path github] [nome pasta]			=> clonar um repositório remoto
+	git clone [path github] [nome pasta]			=> Clonar um repositório remoto
+	
+	git checkout -b [nome branch]                   => Criar novo branch
+	git branch                                      => Listar branches
+	git checkout [nome branch] 						=> Mudar de branch
+	git branch -D [nome branch]						=> Deletar branch
+	
+	

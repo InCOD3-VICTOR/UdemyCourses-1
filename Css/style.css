@@ -5,6 +5,16 @@
 
 h1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16pt;
-    color: chartreuse;    
+    font-size: 38pt;
+    color: chartreuse;
+    background-color: brown;     
+}
+
+body{
+    background-color: blueviolet;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

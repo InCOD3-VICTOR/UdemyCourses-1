@@ -18,3 +18,27 @@ body{
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-color: green;
+    height: 100px;
+}
+
+#div_esq{
+    background-color: aquamarine;
+    min-height: 200px;
+    width: 70%;
+    float: left;
+}
+
+#div_dir{
+    background-color: chocolate;
+    min-height: 200px;
+    width: 30%;
+    float: right;
+}
+
+footer{
+    clear: both;
+    height: 30px;
+}

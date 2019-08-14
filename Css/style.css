@@ -3,6 +3,7 @@
     Copia não comédia
 */
 
+/*TAGS*/
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 38pt;
@@ -24,6 +25,19 @@ header{
     height: 100px;
 }
 
+
+footer{
+    clear: both;
+    height: 30px;
+}
+
+/*CLASS*/
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+/*IDS*/
 #div_esq{
     background-color: aquamarine;
     min-height: 200px;
@@ -36,9 +50,4 @@ header{
     min-height: 200px;
     width: 30%;
     float: right;
-}
-
-footer{
-    clear: both;
-    height: 30px;
 }

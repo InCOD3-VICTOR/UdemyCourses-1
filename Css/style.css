@@ -3,6 +3,7 @@
     Copia não comédia
 */
 
+/*TAGS*/
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 38pt;
@@ -20,25 +21,55 @@ body{
 }
 
 header{
-    background-color: green;
+    background-color: brown;
     height: 100px;
+    padding: 20px;
+    text-shadow: 1px 1px 1px #111111;
 }
 
-#div_esq{
-    background-color: aquamarine;
-    min-height: 200px;
-    width: 70%;
-    float: left;
-}
-
-#div_dir{
-    background-color: chocolate;
-    min-height: 200px;
-    width: 30%;
-    float: right;
-}
 
 footer{
     clear: both;
     height: 30px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+img{
+    margin: 10px;
+    width: 150px;
+    height: 80px;
+}
+
+/*CLASS*/
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+/*IDS*/
+#div_esq{
+    background-color: aquamarine;
+    width: 70%;
+    float: left;
+    min-height: 750px;
+    background-image: url('puma.jpg');
+    background-size: 100%;
+}
+
+#div_dir{
+    background-color: chocolate;
+    min-height: 288px;
+    width: 30%;
+    float: right;
+}
+
+#text_puma{
+    background-color: rgba(0,0,0,0.5);
+    padding: 0px 80px 0px 80px;
+    text-align: center;
+    font-size: 50px;
+    color: #1bbda7;
 }
